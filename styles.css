@@ -229,6 +229,18 @@ h2, h3 {
 #about strong {
     color: var(--accent-color);
 }
+/* --- NEW SECTION FOR RESUME DOWNLOAD BUTTON --- */
+.download-section {
+    /* Sets padding for the section */
+    padding: 10px 0 40px 0;
+    /* Uses the black background color */
+    background-color: var(--body-bg-color); 
+    /* Removes any shadow or border radius */
+    box-shadow: none; 
+    margin-bottom: 0;
+    border-radius: 0;
+}
+/* --- END NEW SECTION --- */
 
 /* --- SKILLS SECTION --- */
 #skills .skills-list {
@@ -641,4 +653,5 @@ footer {
     .contact-icon-list .fas { 
         font-size: 2rem; 
     }
+
 }
